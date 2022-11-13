@@ -18,7 +18,7 @@ OrderID int,
 primary key(OrderID), foreign key(ProductID) references product(ProductID)
   
   on delete cascade
-  on update cascade);
+  on update cascade );
 
 create table customer(ID int,
 Name char(15),
